@@ -1,0 +1,23 @@
+{
+  "name": "platform_story-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "npm run build",
+    "prod": "npm run build",
+    "build": "rollup -c",
+    "watch": "rollup -c -w",
+    "start": "node dist/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-run": "^2.0.2",
+    "rollup": "^2.26.5",
+    "source-map-support": "^0.5.19"
+  }
+}
